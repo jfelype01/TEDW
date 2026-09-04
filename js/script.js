@@ -1,0 +1,1 @@
+document.querySelectorAll(".category").forEach(btn=>btn.addEventListener("click",()=>{document.querySelectorAll(".category").forEach(b=>b.classList.remove("active"));btn.classList.add("active")}));const nav=document.getElementById("mainNav");window.addEventListener("scroll",()=>nav.classList.toggle("scrolled",window.scrollY>40));
